@@ -1,0 +1,99 @@
+.grade-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s ease;
+}
+.grade-item .score {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+}
+.grade-item .score.red {
+    background-color: #e74c3c;
+}
+.grade-item .score.orange {
+    background-color: #f39c12;
+}
+.grade-item .score.green {
+    background-color: #2ecc71;
+}
+.grade-item .details-btn {
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 50px;
+}
+.grade-item .details-btn:hover {
+    background-color: #2980b9;
+}
+.grade-item .info{
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 130px;
+    height: 45px;
+}
+
+.standart-grade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.average-grade{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.average-grade .scoremain.red{
+    background-color: #e74c3c;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+}
+.average-grade .scoremain.orange{
+    background-color: #f39c12;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+}
+.average-grade .scoremain.green{
+    background-color: #2ecc71;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,51 @@
+.task-detail-form {
+    display: block;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.task-detail-form h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+.task-detail-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7f8c8d;
+}
+.task-detail-form input, .task-detail-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.task-detail-form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.task-detail-form button:hover {
+    background-color: #2980b9;
+}
+
+.description{
+    width: 400px;
+    height: 500px;
+    max-width: 400px;
+    max-height: 500px;
+    resize: none;
+    overflow: auto;
+}
+
+.teacherinfo {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}

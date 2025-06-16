@@ -1,0 +1,47 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #868484;
+    color: #333;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    background-color: #34495e;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    background: linear-gradient(to top, #2c3e50, #868484 160%, rgba(44,62,90,0.5)100%);
+    background: linear-gradient(to right, #2c3e50, #868484 150%, rgba(44,62,90,0.5)100%);
+    box-shadow: 10px 0 10px -5px rgba(44, 62, 80, 0.5);
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 50px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.sidebar a:hover, .sidebar a.active {
+    background-color: #2980b9;
+}
+
+.content {
+    margin-top: 60px;
+    margin-left: 250px;
+    padding: 20px;
+    transition: all 0.3s;
+}
